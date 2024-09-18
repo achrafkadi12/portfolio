@@ -1,0 +1,51 @@
+
+.film-grain-service-1 {
+    background: url(../img/services/img-service-1.png) repeat top left !important;
+            opacity: 0.1;
+       -moz-opacity: 0.1;
+    -webkit-opacity: 0.1;
+
+    }
+
+.film-grain-service-2 {
+    background: url(../img/about/profile.png) repeat top left !important;
+                opacity: 0.1;
+           -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+    
+        }
+        
+.film-grain-service-3 {
+    background: url(../img/about/profile.png) repeat top left !important;
+            opacity: 0.1;
+       -moz-opacity: 0.1;
+    -webkit-opacity: 0.1;
+
+    }       
+    
+    /* ABOUT */
+    
+    .film-grain-about-1 {
+        background: url(../img/about/profile.png) repeat top left !important;
+                opacity: 0.1;
+           -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+    
+        }   
+
+
+        .video-container {
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+        
+            filter: grayscale(100%);
+            transition: filter 0.5s ease;
+        }
+
+        .video-container iframe:hover {
+            filter: none;
+        }
